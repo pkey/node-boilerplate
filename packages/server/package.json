@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A node-api boilerplate server-code",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node --project tsconfig.json src/app.ts",
+    "dev": "nodemon dist/app.js"
+  },
+  "author": "Paulius Kutka",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.49",
+    "@types/koa-router": "^7.0.42",
+    "@types/node": "^12.7.8",
+    "nodemon": "^1.19.2"
+  }
+}

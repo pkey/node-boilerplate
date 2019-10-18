@@ -1,26 +1,22 @@
 {
-  "name": "node-boilerplate",
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "A node-api boilerplate code",
-  "main": "app.ts",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "ts-node --project tsconfig.json src/app.ts",
-    "dev": "nodemon dist/app.js"
+    "install": "lerna bootstrap",
+    "dev": "lerna run --parallel dev"
   },
-  "author": "Paulius Kutka",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkey/node-boilerplate.git"
+  },
+  "author": "Paulius Kutka | Tomas Eglinskas",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^8.1.0",
-    "koa": "^2.8.1",
-    "koa-body": "^4.1.1",
-    "koa-router": "^7.4.0",
-    "ts-node": "^8.4.1",
-    "typescript": "^3.6.3"
+  "bugs": {
+    "url": "https://github.com/pkey/node-boilerplate/issues"
   },
-  "devDependencies": {
-    "@types/koa": "^2.0.49",
-    "@types/koa-router": "^7.0.42",
-    "@types/node": "^12.7.8",
-    "nodemon": "^1.19.2"
+  "dependencies": {
+    "lerna": "^3.18.1"
   }
 }
