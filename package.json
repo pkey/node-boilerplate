@@ -18,7 +18,7 @@
     "typescript": "^3.6.4"
   },
   "devDependencies": {
-    "@types/koa": "^2.0.51",
+    "@types/koa": "^2.0.52",
     "@types/koa-router": "^7.0.42",
     "@types/node": "^12.11.7",
     "nodemon": "^1.19.4"
