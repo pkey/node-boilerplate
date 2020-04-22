@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/koa": "^2.11.3",
     "@types/koa-router": "^7.4.0",
-    "@types/node": "^13.13.1",
+    "@types/node": "^13.13.2",
     "nodemon": "^2.0.3"
   }
 }
